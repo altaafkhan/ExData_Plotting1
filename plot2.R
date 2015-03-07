@@ -20,3 +20,6 @@ plot(data$Global_active_power~data$Datetime, type="l",
 ## Save as plot2.png under the "images" folder
 dev.copy(png, file="./images/plot2.png", height=500, width=500)
 dev.off()
+
+## Clear objects from the workspace
+rm(list=ls())
