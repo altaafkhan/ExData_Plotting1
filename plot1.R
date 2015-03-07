@@ -41,3 +41,6 @@ hist(data$Global_active_power, main="Global Active Power",
 ## Save as plot1.png under the "images" folder
 dev.copy(png, file="./images/plot1.png", height=500, width=500)
 dev.off()
+
+## Clear objects from the workspace
+rm(list=ls())
