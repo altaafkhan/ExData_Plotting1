@@ -26,3 +26,6 @@ legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2,
 ## Saving as plot3.png file
 dev.copy(png, file="./images/plot3.png", height=500, width=600)
 dev.off()
+
+## Clear objects from the workspace
+rm(list=ls())
